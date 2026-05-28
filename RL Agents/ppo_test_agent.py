@@ -11,7 +11,7 @@ from find_latest_model import find_latest_model
 
 class PPOAgent:
     def __init__(self, model_path="ppo_test_cage2"):
-        self.name = "PPOShapingTestAgent"
+        self.name = "PPOTestAgent"
         
         # If model_path is a directory, find the latest model inside it
         if os.path.isdir(model_path):
